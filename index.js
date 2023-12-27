@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.status(200).send("home");
 });
 
-app.get("/:username", fetchUserName);
+app.get("/user/:username", fetchUserName);
 
 const port = process.env.PORT || 5000;
 
