@@ -22,6 +22,7 @@ const dataFetcher = async (profileName) => {
 };
 
 const valueGenerator = (userdata) => {
+  try{
   const contributionWeight = 0.4;
   const popularityWeight = 0.3;
   const impactWeight = 0.2;
@@ -42,6 +43,11 @@ const valueGenerator = (userdata) => {
     demandScore * demandWeight;
 
   return totalValue;
+  }
+  catch(error){
+    console.log(error.message)  
+    return -1;
+  }
 };
 
 module.exports = { fetchUserName };
