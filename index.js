@@ -1,9 +1,9 @@
-const Express = require("express");
+const express = require("express");
 const bodyParser = require("body-parser");
 const axios = require("axios");
 const { fetchUserName } = require("./controller");
 
-const app = Express();
+const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
