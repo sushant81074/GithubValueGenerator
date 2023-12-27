@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "An api which generates the github profile value based on multiple factors such as stars , followers, etc.",
   "main": "index.js",
+  "type":"module"
  ,
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
   },
   "author": "sushant sharma",
   "license": "ISC",
