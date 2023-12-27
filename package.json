@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An api which generates the github profile value based on multiple factors such as stars , followers, etc.",
   "main": "index.js",
-  "type":"module"
+  "type":"module",
  ,
   "scripts": {
     "start": "node index.js",
