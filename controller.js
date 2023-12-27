@@ -8,7 +8,7 @@ const fetchUserName = async (req, res) => {
   return res.status(200).send({
     message: "username fetched successfully",
     user: data.login,
-    value: `  ${value} $ `,
+    value: `  ${value} USD `,
   });
 };
 
